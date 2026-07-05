@@ -27,3 +27,60 @@ Simple ATM Machine:	User enters a PIN and can check balance, deposit, or withdra
 Basic Calculator:	Performs addition, subtraction, multiplication and division with input validation and division by zero handling.
 
 Word Counter and Analyzer:	Takes a paragraph as input, counts words, finds the longest word, counts vowels and tracks most common starting letter
+
+Section 2 - Data Structures
+Concepts: Lists, tuples, dictionaries, sets, list comprehensions
+
+Project	Description
+
+Student Result Management System	Stores student names and marks in a dictionary, computes average, finds the topper and displays grades using list comprehensions.
+
+Contact Book	Add, search, update and delete contacts stored in a dictionary. Uses a set to detect duplicate phone numbers.
+
+Shopping Cart System	Add and remove items using a list, track unique categories using a set and store item prices in a dictionary with total bill calculation.
+
+Section 3 - Functions and File Handling
+Concepts: Functions, modules, file I/O, exception handling, CSV handling
+
+Project	Description
+
+Library Book Management System	Add, remove and search books stored in a CSV file using file handling with try-except for error management.
+
+Expense Tracker	Log daily expenses to a text file and summarize by category using functions with exception handling for invalid input.
+
+Student Grade File Manager	Reads student data from a CSV, computes grades using functions and writes updated results to a new CSV file.
+
+Password Generator and Validator	Generates strong passwords using the random and string modules and validates passwords using a custom exception class.
+
+Section 4 - OOP and Advanced Python
+Concepts: Classes, inheritance, polymorphism, encapsulation, decorators, regex, generators, dunder methods
+
+Project	Description
+OOP Grade Management System	Classes for Student, Teacher and Course with inheritance from a base Person class. Records are saved and retrieved from a file using the str dunder method.
+Bank Account System	Base class Account with child classes SavingsAccount and CurrentAccount. Each overrides the withdraw method differently. Balance is encapsulated and account numbers are validated using regex.
+Employee Payroll System	Employee base class with FullTimeEmployee and PartTimeEmployee subclasses. Uses polymorphic calculate_salary method and a decorator to log every salary computation to a file.
+Log File Analyzer	Reads a server log file, uses regex to extract error codes, timestamps and IP addresses. Uses a generator to process lines one at a time and saves a summary report to an output file.
+
+Section 5 - Python for Data and Automation
+Concepts: NumPy, Pandas, web scraping, requests, BeautifulSoup, CSV export
+
+Project	Description
+
+Automated Data Collector	Scrapes book titles, prices and ratings from books.toscrape.com using requests and BeautifulSoup and stores the data in a CSV file using Pandas.
+
+IPL Dataset Analyzer	Loads a real IPL matches CSV dataset, cleans missing values and answers 10 business questions using Pandas groupby, value_counts and aggregation functions.
+
+NumPy Statistics Dashboard	Takes a dataset as input either manually or from a file, computes mean, median, standard deviation, min and max using NumPy and displays a text based summary report.
+Student Marks Analyzer	Reads student marks from a CSV, filters pass and fail, sorts by score, adds a grade column using apply() and exports the cleaned data to a new CSV file.
+
+
+Requirements
+Python 3.x
+pandas
+numpy
+requests
+beautifulsoup4
+
+All standard library modules such as random, string, csv, os, re and datetime are included with Python and do not require separate installation.
+
+#Author Charanjit Developed as part of internship Python programming module.
